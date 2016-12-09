@@ -1,0 +1,335 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Exemplos de tags HTML</title>
+	<style>
+body {
+	font-family: "Arial", sans-serif;
+	background: #faddff;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+p {
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	line-height: 20px;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	border-bottom: dotted 2px #ff3333;
+}
+a.imagem-sem-borda {
+	text-decoration: none;
+	border: 0 none;
+}
+a:hover, a:visited {
+	background: #84608a;;
+}
+ul li {
+	line-height: 25px;
+}
+#lista-ordenada {
+	border: solid 1px black;
+}
+ol {
+	/*border: solid 1px black;*/
+}
+ol li {
+	list-style-type: lower-alpha;
+	padding-left: 15px;
+}
+#menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: #84608a;
+}
+#menu li {
+	padding: 15px 0px 15px 0px;
+	display: inline-block;
+	text-align: center;
+	float: left;
+}
+#menu li a, a:visited {
+	padding: 20px;
+	border: none;
+}
+
+#mafagafo {
+	float: right;
+}
+img {
+	vertical-align: middle;
+}
+hr {
+	clear:right;
+}
+table {
+	border-collapse: collapse;
+	width: 50%;
+	margin: 0px auto;
+}
+caption {
+	font-size: 12px;
+}
+thead {
+	background: #bbbbbb;
+}
+tr {
+	border-bottom: 1px solid #cccccc;
+	height: 25px;
+}
+tbody tr:hover {
+	background: #4488ee;
+}
+tr:last-child {
+	border-bottom: none;
+}
+td {
+	text-align: center;
+}
+legend {
+	font-size: 18px;
+	font-weight: bold;
+}
+fieldset {
+	line-height: 20px;
+	padding: 10px;
+	border: 5px solid #84608a;
+	width: 300px;
+}
+input {
+	display: block;
+	border: 1px solid black;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+input:focus {
+	background: #ffffcc;
+}
+input[type="checkbox"] {
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-bottom: 0px;
+}
+#Interesse {
+	margin-left: 10%;
+	vertical-align: top;
+	display: block;
+	padding-top: 0px;
+	margin-bottom: 20px;
+	
+}
+input[type="radio"] {
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-bottom: 0px;
+}
+#Idade {
+	margin-left: 10%;
+	vertical-align: top;
+	display: block;
+	padding-top: 0px;
+	margin-bottom: 20px;
+}
+#opcoes {
+	vertical-align: top;
+	display: inline-block;
+	padding-top: 0px;
+	margin-bottom: 20px;
+}
+select {
+	background: #ffffff;
+	display: block;	
+	border: 1px solid black;
+	width: 200px;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+textarea {
+	border: 1px solid black;
+	font-family: monospace;
+	resize: none;
+	display: block;
+	margin: 0px auto 20px auto;
+/*
+	margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+*/
+}
+input[type=reset] {
+	background: #5154b5;
+	color: #000000;
+	border-radius: 5px;
+	display: inline;
+	margin: 0 50px;
+	float: left;
+}
+input[type=submit] {
+	background: #5154b5;
+	color: #000000;
+	border-radius: 5px;
+	display: inline;
+	margin: 0 50px;
+	float: right;
+}
+	</style>
+	<script type="text/javascript"></script>
+</head>
+
+<body>
+
+<h1 id="titulo1">Título 1</h1>
+<h2>Título 2</h2>
+<h3>Título 3</h3>
+<h4>Título 4</h4>
+
+
+<h1>Parágrafos</h1>
+<p>hfuhfaeufheufheaufheauhfeaufheaufheufheaufhaeufheufhuessssssssssssssssssssssssssssshhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhfffffffffffffffffffffffffffkkkkkkkkkkkkkkkkkkkkkkkkkkrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrriiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiggggggggggggggggggggg</p>
+
+<p>jaiiejaijdiaejdiaejdeaudheauhdeauhdeauhdueahdueahdueahdueahduheaudheaudhaudheauhdeaujkkkkkkkkkkkkkkkkkkkkkssssssssssssssssssssssssssssssiiiiiiiiiiiiiiiiiiiiiikkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllaaa</p>
+
+<p>sjjjjjjjjjjjjjjjjjjjjjjjjjjjjshhhhhhhhhhhhhhhhhhhhhhhhhhaaaaaaaaaaaaaaaaaaaaaaaassssssssssssssssssssssssssssssssssssssffffffffffffffffhhhhhhhhhhhhhhhhhjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkklllllllllllllllllllllllllllllllllllllaaaaaaaaaaaaaaaaaaaaaaaaaaaaakkkkkkkkkkkkkkkkksssssssssssssssssssssssssdkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkllllllllllllll</p>
+
+<hr/>
+
+<h1>Listas</h1>
+
+Lista não ordenada (unordered list):
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+
+</ul>
+
+<br/>
+
+<div id="lista-ordenada">
+Lista ordenada (ordered list):
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+</ol>
+</div>
+
+<br/>
+Lista em forma de menu:
+
+<nav>
+<ul id="menu">
+<li><a href="#">Item 1</a></li>
+<li><a href="#">Item 2</a></li>
+<li><a href="#">Item 3</a></li>
+</ul>
+</nav>
+
+<hr/>
+<h1>Outras tags</h1>
+<figure id="mafagafo">
+<img src="mafagafo.jpg" width="100" height="100" alt="Mafagafo" />
+<figcaption>Mafagafo</figcaption>
+</figure>
+<br/>
+<br/>
+<br/>
+
+
+
+<hr/>
+<h1>Tabelas</h1>
+
+<table>
+<caption>Pessoas</caption>
+<thead>
+	<tr>
+		<th>Número</th>
+		<th>Nome</th>
+		<th>Bairro</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>1</td>
+		<td>Marcondes</td>
+		<td>Campinas</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>Adriano</td>
+		<td>Estreito</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>Vagner</td>
+		<td>Floresta</td>
+	</tr>
+</tbody>
+</table>
+
+<hr/>
+<h1>Formulários de teste</h1>
+
+<form action="">
+<fieldset>
+	<legend>Dados pessoais</legend>
+	<div>
+	<label for="nome">Nome</label> <input type="text" id="nome" size="50" maxlength="50" />
+	</div>
+	<div>
+	<label for="email">E-mail</label> <input type="text" id="email" size="30" maxlength="30" />
+	</div>
+	<div>
+	<label for="senha">Senha</label> <input type="password" id="senha" />
+	</div>
+	<div>
+	<label for="bairro">Bairro</label>
+	<select id="bairro">
+		<option>Kobrasol</option>
+		<option>Campinas</option>
+		<option>Barreiro</option>
+		<option>Estreito</option>
+		<option>Floresta</option>
+		<option selected="selected">Outros</option>
+	</select>
+	</div>
+	<div>
+	Interesses:
+	<div id="Interesse">
+	<div><input type="checkbox" name="interesse"/>Pastel</div>
+	<div><input type="checkbox" name="interesse"/>Cachorro quente</div>
+	</div>
+	</div>
+	<div>
+	Idade:
+	<div id="Idade">
+	<div><input type="radio" name="idade"/>0-18</div>
+	<div><input type="radio" name="idade"/>18-30</div>
+	<div><input type="radio" name="idade"/>35-40</div>
+	</div>
+	</div>
+	<div>
+	Outros dados:
+	<br/>
+	<textarea cols="50" rows="5"></textarea>
+	</div>
+	<div>
+	<input type="hidden" name="textoOculto" value="valorOculto" />
+	<input type="reset" />
+	<input type="submit"/>
+	</div>
+</fieldset>
+</form>
+
+</body>
+
+</html>
